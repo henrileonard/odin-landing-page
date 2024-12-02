@@ -1,0 +1,69 @@
+/* Reset default margins and paddings */
+html, body {
+    margin: 0;
+    padding: 0;
+ } 
+ body {
+    font-family: 'Roboto', sans-serif;
+ }
+ #hero {
+    background-color: #1F2937;
+ }
+ /*Hero secondary text, header link text style*/
+ #header .link {
+    font-size: 18px;
+    color: #e5e7eb;
+ }
+ #header {
+    display: flex;
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    gap: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+ }
+ #header-logo {
+    font-weight: bold;
+ }
+ #header a {
+    text-decoration: none;
+    color: #f9faf8;
+ } 
+ #hero-primary {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+ }
+ .placeholder-information {
+    height: 80px;
+    width: 80px;
+    border-width: 2px;
+    border-color: #3882f6;
+    border-style: solid;
+    border-radius: 8px;
+ }
+ #hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+ }
+ button {
+    background-color: #3882f6;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+ }
+ #information-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+ }
+ #quote-section {
+    background-color: #e5e7eb;
+ }
+ #quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+ }
