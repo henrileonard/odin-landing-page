@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Odin Landing Page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -13,9 +13,12 @@
     <div id="hero">
         <div id="header">
             <span id="header-logo">Header Logo</span>
-            <a href="" class="link">header link one</a>
-            <a href="" class="link">header link two</a>
-            <a href="" class="link">header link three</a>
+            <div id="header-links">
+                <a href="" class="link">header link one</a>
+                <a href="" class="link">header link two</a>
+                <a href="" class="link">header link three</a>
+            </div>
+            
         </div>
         <div id="hero-rest">
             <div id="text">
@@ -28,17 +31,31 @@
                 </span>
                 <button class="signup" id="signup-hero"> Sign up</button>
             </div>
-            <span id="placeholder-header">
+            <div id="placeholder-hero">
                 This is a placeholder for an image
-            </span>
+            </div>
         </div>
     </div>
     <div id="information">
         <span id="information-header">Here is some information.</span>
-        <div class="placeholder-information"></div>
-        <div class="placeholder-information"></div>
-        <div class="placeholder-information"></div>
-        <div class="placeholder-information"></div>
+        <div id="placeholder-information-container">
+            <div id="information-block1">
+                <div class="placeholder-information"></div>
+                <span class="subtext">this is some subtext under an illustration or image</span>
+            </div>
+            <div id="information-block2">
+                <div class="placeholder-information"></div>
+                <span class="subtext">this is some subtext under an illustration or image</span>
+            </div>
+            <div id="information-block3">
+                <div class="placeholder-information"></div>
+                <span class="subtext">this is some subtext under an illustration or image</span>
+            </div>
+            <div id="information-block4">
+                <div class="placeholder-information"></div>
+                <span class="subtext">this is some subtext under an illustration or image</span>
+            </div>
+        </div>
     </div>
     <div id="quote-section">
         <span id="quote">
@@ -47,7 +64,7 @@
             it looks nice.
         </span>
         <span id="quote-author">
-            -Thor, God of Thunder
+            <b>-Thor, God of Thunder</b>
         </span>
     </div>
     <div id="calltoaction-section">
@@ -60,9 +77,9 @@
              </span>
             <button class="signup" id="signup-calltoaction"> Sign up</button>
         </div>
-        <div id="footer">
-           <span id="copyright"> Copyright © The Odin Project 2021 </span> 
-        </div>
     </div> 
+    <div id="footer">
+        <span id="copyright"> Copyright © The Odin Project 2021 </span> 
+    </div>
 </body>
 </html>
