@@ -20,7 +20,7 @@ html, body {
     background-color: #1F2937;
  }
  #hero{
-   padding: 10px 100px;
+   padding: 10px 200px;
    display: flex;
    flex-direction: column;
  }
@@ -57,6 +57,9 @@ html, body {
  #hero-rest{
    display: flex;
    margin-top: 100px;
+   margin-bottom: 100px;
+   justify-content: space-between;
+  
  }
  #text{
    display: flex;
@@ -71,19 +74,21 @@ html, body {
  #signup-hero {
     border: none;
     color: #f9faf8;
+    margin-top: 10px;
  }
  #placeholder-hero{
    width: 500px;
-   height: 250px;
+   height: 223px;
    background-color: grey;
    display: flex;
    justify-content: center;
    align-items: center;
+   
  }
  #information {
    display: flex;
    flex-direction: column;
-   padding: 10px 90px;
+   padding: 60px 300px;
    text-align: center;
  }
  .placeholder-information {
@@ -98,41 +103,60 @@ html, body {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    margin-bottom: 25px;
  }
  #placeholder-information-container{
    display: flex;
-   
  }
  #quote-section {
    background-color: #e5e7eb;
-   padding: 50px 90px;
+   padding: 50px 300px;
    display: inline-block;
-
+   flex: auto;
 }
  #quote {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
     color: #1f2937;
+    flex: auto;
  }
  #quote-author {
    margin-left: 100px;
  }
  #calltoaction-section {
    background-color: #3882f6;
-   margin: 40px 60px;
+   margin: 40px 200px;
    padding: 20px 40px;
    border-radius: 4px;
    display: flex;
+   flex: auto;
+ }
+ #calltoaction{
+  color: #f9faf8;
+  display: flex;
+  
+ }
+ #calltoaction-text {
+  display: flex;
+
+ }
+ #calltoaction-header {
+  
+  font-size: 22px;
+
+ }
+ #calltoaction-secondary{
+  
  }
  #signup-calltoaction {
    color: #f9faf8;
-   border-color: #f9faf8;
+   border: 2px solid #f9faf8;
  }
 
  #footer {
    text-align: center;
-   padding:20px;
+   padding:30px;
    color: #f9faf8;
    margin-top: auto;
  }
