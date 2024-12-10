@@ -107,7 +107,7 @@ html, body {
      gap: 8px;
  }
  span.subtext{
-     text-align: center; /* Justifies each line */
+     text-align: center;
      display: inline-block;
  }
  #information-header {
@@ -138,23 +138,21 @@ html, body {
  }
  #calltoaction-section {
    background-color: #3882f6;
+   color: #f9faf8;
    margin: 40px 200px;
-   padding: 20px 40px;
+   padding: 30px 50px;
    border-radius: 4px;
    display: flex;
    flex: auto;
- }
- #calltoaction{
-  color: #f9faf8;
-  display: flex;
-  
+   justify-content: space-between;
  }
  #calltoaction-text {
   display: flex;
+  flex-direction: column;
 
  }
  #calltoaction-header {
-  
+  font-weight: bold ;
   font-size: 22px;
 
  }
@@ -164,9 +162,13 @@ html, body {
  #signup-calltoaction {
    color: #f9faf8;
    border: 2px solid #f9faf8;
+     align-self: center;
+     margin-right: 40px;
+
  }
 
  #footer {
+     font-size: 14px;
    text-align: center;
    padding:30px;
    color: #f9faf8;
